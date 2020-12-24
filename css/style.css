@@ -1,0 +1,388 @@
+
+body {
+  background: #202020 url(images/texture-black.jpg) repeat;
+  /*font-family: "Helvetica Neue Light", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;*/
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.3;
+  color: black;
+  padding: .5em;
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: 40px;*/
+  /*margin-bottom: 60px;*/
+  /*width: 800px;*/
+  background: #fff;
+  padding-bottom: 2em;
+}
+
+#icons {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+div{
+  vertical-align: top;
+}
+
+h1 {
+  /*font-family: "Helvetica Neue Ultra Light", "HelveticaNeue-UltraLight", Helvetica, Arial, sans-serif;*/
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  /*font-family: 'Roboto', sans-serif;*/
+  font-size: 250%;
+  line-height: 1.4;
+  font-weight:100;
+  /*font-weight: 700;*/
+  /*text-align: center;*/
+  /*margin: 0;
+  padding: 0;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
+  /*letter-spacing: 1px;*/
+  /*color:white;*/
+  /*background:#666;*/
+  /*float:left;*/
+  display: inline-block;
+  padding-left:2em;
+}
+
+h2{
+  font-size: 130%;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+#nav
+  {
+    position: absolute;
+    right: 4em;
+    top: 2.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+
+    #nav > ul > li
+    {
+      float: left;
+      list-style-type: none;
+    }
+    
+      #nav > ul > li:last-child
+      {
+        /*padding-right: 0.5em;*/
+      }
+
+      #nav > ul > li > a,
+      #nav > ul > li > span
+      {
+        display: block;
+        /*margin-left: 0.7em;*/
+        padding: 0.3em 0.3em;
+        /*letter-spacing: 0.06em;*/
+        /*text-decoration: none;*/
+        /*text-transform: uppercase;*/
+        font-size: 115%;
+        /*outline: 0;*/
+        color: #000;
+      }
+
+      #nav li.active a
+      {
+        /*background: #e95d3c;*/
+        border: 1px solid #000;
+        border-color: #999;
+        /*border-radius: 1px;*/
+        /*color: #FFF;*/
+        /*text-decoration: underline;*/
+        /*color:#666;*/
+      }
+
+      #nav > ul > li > ul
+      {
+        display: none;
+      }
+
+.main {
+  /*position: relative;*/
+  clear:both;
+  padding-top: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.main ul{
+  list-style-type: none;
+  padding-left: 2em;
+  text-indent: -.5em ;
+}
+
+.main li{
+  padding-bottom:.5em;
+}
+
+
+
+.main ol{
+  
+}
+
+.main-pic{
+  float:left;
+  /*display: inline-block;*/
+  width: 40%;
+  padding-left:5em;
+  /*padding-right:10em;*/
+  /*max-width:50%;*/
+}
+
+.amazon-pic {
+  float: left;
+}
+
+p{
+  padding-left: 1.5em;
+}
+
+.about{
+  float:left;
+  /*display: inline-block;*/
+  padding-left:2em;
+  /*min-width:100px;*/
+  /*max-width:50%;*/
+  width: 40%;
+}
+
+paper {
+  font-weight: 400;
+}
+
+.row {
+  clear:both;
+}
+
+hr {
+  border:0;
+  height:0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.right hr{
+  border:0;
+  height:0;
+  margin:.4em;
+}
+
+.left {
+  /*font-family: "Helvetica Neue Ultra Light", "HelveticaNeue-UltraLight", Arial, Helvetica, sans-serif;;*/
+  font-weight: 100;
+  float: left;
+  width: 10%;
+  /*padding-left: 25px;*/
+  padding-right: 0.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  text-align: right;
+  color: #666;
+  overflow: visible;
+}
+
+.right {
+  /*margin-left: 115px;*/
+  float:left;
+  width: 80%;
+  padding-left: 0.5em;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  /*border-left: 1px solid #bbb;*/
+  /*text-align: justify;*/
+}
+
+.indent-right {
+  font-size: 90%;
+  margin-left: 115px;
+  width: 660px;
+ /* padding-left: .5em;*/
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-left: 1px solid #bbb;
+  text-align: left;
+  padding-left: 40px ;
+  text-indent: -15px ;
+}
+
+.crop {
+    width: 374px;
+    /*height: 240px;*/
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.crop img {
+    /*width: 374px;*/
+    /*height: 560px;*/
+    /*margin: -120px 0;*/
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+td { 
+    padding: 0px 0.5em;
+    font-weight: 300;
+}
+
+a{
+  text-decoration: none;
+  /*color: #002bb8;*/
+  color: #2a5db0;
+}
+
+b{
+  font-weight: 500;
+}
+
+.right a{
+  /*padding-left:.3em;*/
+  /*border-right: 1px solid #bbb;*/
+}
+
+.right ul{
+  padding-left:1.1em;
+  /*margin-top:.15em;*/
+  margin-top:0em;
+  list-style-type: circle;
+}
+
+.right li{
+  padding-bottom:0em;
+  padding-left:0.2em;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.clear {
+  opacity: .5;
+}
+
+  #footer
+  {
+    position: relative;
+    padding: 1em 0em;
+    /*border-top: 1px solid #303030;*/
+    font-size: 90%;
+    letter-spacing: .08em;
+    text-align: center;
+    /*color: rgba(255,255,255,.4);*/
+    color: #ccc;
+    font-weight: 200;
+    /*background-color:transparent;*/
+  }
+ 
+
+.course_head {
+    font-size: min(1.3vw,17px);
+}
+
+.courses {
+    font-size:5px;
+
+    font-size: min(1.2vw,15px);
+    float: left; 
+    width: 31%; 
+    margin-left:1%;
+    margin-right:1%;
+}
+
+.courses_main {
+    width: min(100%, 1000px);
+}
+
+.pub_container {
+    float: right;
+    margin-bottom:5%
+}
+
+.pub_main {
+    float: right;
+    margin-bottom:2%;
+    width:100%
+}
+
+.pub_left {
+     float: left;
+     width: min(23%, 220px);
+}
+
+.pub_right {
+    font-size: min(1.4vw, 17px); /*17px;*/
+    float: left;
+    width: 72%;
+}
+
+.pub_img {
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
+
+.content {
+    width: 400px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content img {
+    margin-right: 1px;
+    float: left;
+}
+
+.content h3,
+.content p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  /*width: 50px; IF square, also comment out border radius*/
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-github {
+  background: #333;
+  color: white;
+}
+
+.fa-spotify {
+  background: #1DB954;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0e76a8;
+  color: white;
+}
