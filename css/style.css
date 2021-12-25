@@ -384,3 +384,9 @@ a:hover{
   background: #0e76a8;
   color: white;
 }
+
+.fa-graduation-cap {
+  color: black;
+  font-size: 50px;
+  width: 50px;
+}
