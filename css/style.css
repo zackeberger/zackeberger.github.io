@@ -68,11 +68,6 @@ h2 {
   top: 2.2em;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  animation: fadeIn linear var(--fade-time);
-  -webkit-animation: fadeIn linear var(--fade-time);
-  -moz-animation: fadeIn linear var(--fade-time);
-  -o-animation: fadeIn linear var(--fade-time);
-  -ms-animation: fadeIn linear var(--fade-time);  
 }
 
 #nav > ul > li
@@ -119,11 +114,6 @@ h2 {
 
 .title {
   vertical-align: top;
-  animation: fadeIn linear var(--fade-time);
-  -webkit-animation: fadeIn linear var(--fade-time);
-  -moz-animation: fadeIn linear var(--fade-time);
-  -o-animation: fadeIn linear var(--fade-time);
-  -ms-animation: fadeIn linear var(--fade-time);
 }
       
 .main {
