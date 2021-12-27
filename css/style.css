@@ -1,3 +1,6 @@
+:root {
+  --fade-time: 2s;
+}
 
 body {
   background: #202020 url(images/texture-black.jpg) repeat;
@@ -27,7 +30,7 @@ body {
   margin-bottom: 0px;
 }
 
-div{
+div {
   vertical-align: top;
 }
 
@@ -52,69 +55,90 @@ h1 {
   padding-left:2em;
 }
 
-h2{
+h2 {
   font-size: 130%;
   line-height: 1.4;
   font-weight: 400;
 }
 
 #nav
-  {
-    position: absolute;
-    right: 4em;
-    top: 2.2em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-  }
+{
+  position: absolute;
+  right: 4em;
+  top: 2.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  animation: fadeIn linear var(--fade-time);
+  -webkit-animation: fadeIn linear var(--fade-time);
+  -moz-animation: fadeIn linear var(--fade-time);
+  -o-animation: fadeIn linear var(--fade-time);
+  -ms-animation: fadeIn linear var(--fade-time);  
+}
 
-    #nav > ul > li
-    {
-      float: left;
-      list-style-type: none;
-    }
+#nav > ul > li
+{
+  float: left;
+  list-style-type: none;
+}
     
-      #nav > ul > li:last-child
-      {
-        /*padding-right: 0.5em;*/
-      }
+#nav > ul > li:last-child
+{
+  /*padding-right: 0.5em;*/
+}
 
-      #nav > ul > li > a,
-      #nav > ul > li > span
-      {
-        display: block;
-        /*margin-left: 0.7em;*/
-        padding: 0.3em 0.3em;
-        /*letter-spacing: 0.06em;*/
-        /*text-decoration: none;*/
-        /*text-transform: uppercase;*/
-        font-size: 115%;
-        /*outline: 0;*/
-        color: #000;
-      }
+#nav > ul > li > a,
+#nav > ul > li > span
+{
+  display: block;
+  /*margin-left: 0.7em;*/
+  padding: 0.3em 0.3em;
+  /*letter-spacing: 0.06em;*/
+  /*text-decoration: none;*/
+  /*text-transform: uppercase;*/
+  font-size: 115%;
+  /*outline: 0;*/
+  color: #000;
+}
 
-      #nav li.active a
-      {
-        /*background: #e95d3c;*/
-        border: 1px solid #000;
-        border-color: #999;
-        /*border-radius: 1px;*/
-        /*color: #FFF;*/
-        /*text-decoration: underline;*/
-        /*color:#666;*/
-      }
+#nav li.active a
+{
+  /*background: #e95d3c;*/
+  border: 1px solid #000;
+  border-color: #999;
+  /*border-radius: 1px;*/
+  /*color: #FFF;*/
+  /*text-decoration: underline;*/
+  /*color:#666;*/
+}
 
-      #nav > ul > li > ul
-      {
-        display: none;
-      }
+#nav > ul > li > ul
+{
+  display: none;
+}
 
+
+.title {
+  vertical-align: top;
+  animation: fadeIn linear var(--fade-time);
+  -webkit-animation: fadeIn linear var(--fade-time);
+  -moz-animation: fadeIn linear var(--fade-time);
+  -o-animation: fadeIn linear var(--fade-time);
+  -ms-animation: fadeIn linear var(--fade-time);
+}
+      
 .main {
   /*position: relative;*/
   clear:both;
   padding-top: 2em;
   padding-left: 5em;
   padding-right: 5em;
+  animation: fadeIn linear var(--fade-time);
+  -webkit-animation: fadeIn linear var(--fade-time);
+  -moz-animation: fadeIn linear var(--fade-time);
+  -o-animation: fadeIn linear var(--fade-time);
+  -ms-animation: fadeIn linear var(--fade-time);
 }
+
 
 .main ul{
   list-style-type: none;
@@ -126,24 +150,27 @@ h2{
   padding-bottom:.5em;
 }
 
-
-
 .main ol{
   
 }
+
 
 .main-pic{
   float:left;
   width: 40%;
   padding-left:5em;
+  animation: fadeIn var(--fade-time);
+  -webkit-animation: fadeIn var(--fade-time);
+  -moz-animation: fadeIn var(--fade-time);
+  -o-animation: fadeIn var(--fade-time);
+  -ms-animation: fadeIn var(--fade-time);
 }
-
 
 .amazon-pic {
   float: left;
 }
 
-p{
+p {
   padding-left: 1.5em;
 }
 
@@ -154,6 +181,11 @@ p{
   /*min-width:100px;*/
   /*max-width:50%;*/
   width: 40%;
+  animation: fadeIn linear var(--fade-time);
+  -webkit-animation: fadeIn linear var(--fade-time);
+  -moz-animation: fadeIn linear var(--fade-time);
+  -o-animation: fadeIn linear var(--fade-time);
+  -ms-animation: fadeIn linear var(--fade-time);
 }
 
 paper {
@@ -375,4 +407,31 @@ a:hover{
   color: black;
   font-size: 50px;
   width: 50px;
+}
+
+
+/* Define fade in animations */
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
