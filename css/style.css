@@ -321,7 +321,8 @@ a:hover{
 }
 
 .pub_main {
-    float: right;
+    display: flow-root;
+    clear: both;
     margin-bottom:2%;
     width:100%
 }
