@@ -140,6 +140,12 @@ h2 {
   padding-bottom:.5em;
 }
 
+.main .project-list {
+  list-style-type: disc;
+  padding-left: 2.25em;
+  text-indent: 0;
+}
+
 .main ol{
   
 }
@@ -336,11 +342,30 @@ a:hover{
     font-size: min(1.4vw, 17px); /*17px;*/
     float: left;
     width: 65%;
+    max-width: 78ch;
 }
 
 .pub_img {
   -webkit-filter: drop-shadow(2px 2px 2px #222);
   filter: drop-shadow(2px 2px 2px #222);
+}
+
+.industry-entry {
+  margin-bottom: 3%;
+}
+
+.industry-logo {
+  display: block;
+  width: 90%;
+  height: 80px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.teaching-logo {
+  display: block;
+  width: 75%;
+  height: auto;
 }
 
 .content {
@@ -398,6 +423,63 @@ a:hover{
   color: black;
   font-size: 50px;
   width: 50px;
+}
+
+.profile-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.profile-links > a {
+  flex: 0 0 70px;
+}
+
+.profile-links > .fa {
+  box-sizing: border-box;
+  display: inline-flex;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.cv-icon {
+  display: inline-grid;
+  width: 70px;
+  height: 70px;
+  place-items: center;
+  color: black;
+  vertical-align: middle;
+}
+
+.cv-icon .fa,
+.cv-icon span {
+  grid-area: 1 / 1;
+}
+
+.cv-icon .fa {
+  width: auto;
+  padding: 0;
+  font-size: 64px;
+  line-height: 1;
+  opacity: 1;
+}
+
+.cv-icon span {
+  margin-top: 13px;
+  margin-right: 3px;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.cv-icon:hover {
+  opacity: 0.7;
+  text-decoration: none;
 }
 
 
